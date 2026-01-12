@@ -41,7 +41,6 @@ manjaro-gnome-backgrounds
 manjaro-zsh-config
 mutter
 nautilus
-nautilus-open-in-ptyxis
 neovim
 noto-fonts
 noto-fonts-cjk
@@ -63,3 +62,5 @@ xdg-desktop-portal-gnome
 zsh-autosuggestions
 zsh-completions
 zsh-syntax-highlighting
+nano
+vim
