@@ -1,0 +1,6 @@
+depends/manjaro-generic
+depends/drivers
+depends/trev-base
+depends/desktop
+depends/gnome
+depends/labwc

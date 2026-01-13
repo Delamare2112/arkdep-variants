@@ -1,0 +1,13 @@
+cuda
+cudnn
+ollama-cuda
+ipython
+wine
+wine-gecko
+wine-mono
+winetricks
+vkd3d
+cmake
+base-devel
+
+rustup
