@@ -9,5 +9,6 @@ winetricks
 vkd3d
 cmake
 base-devel
+rustic
 
-rustup
+lizardbyte/sunshine

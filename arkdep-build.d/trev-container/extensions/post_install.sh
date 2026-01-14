@@ -4,9 +4,9 @@
 #arch-chroot ${workdir} systemctl enable opennic-up-on-boot
 #arch-chroot ${workdir} systemctl enable opennic-up.timer
 
-arch-chroot ${workdir} systemctl enable avahi-daemon
-arch-chroot ${workdir} systemctl enable NetworkManager
-arch-chroot ${workdir} systemctl enable sshd
+# arch-chroot ${workdir} systemctl enable avahi-daemon
+# arch-chroot ${workdir} systemctl enable NetworkManager
+# arch-chroot ${workdir} systemctl enable sshd
 
 # Save pacman local database
 mkdir -pv ${workdir}/usr/share/manjaro
