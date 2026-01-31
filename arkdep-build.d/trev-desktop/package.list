@@ -10,5 +10,10 @@ vkd3d
 cmake
 base-devel
 rustic
+gocryptfs
+sshfs
+usbip
+lldb
+gdb
 
 lizardbyte/sunshine

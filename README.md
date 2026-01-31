@@ -37,3 +37,14 @@ Once you have build an image it can quickly be deployed locally on any Arkdep ma
 cp ./target/{IMAGE_ID}.tar.zst /arkdep/cache
 sudo arkdep deploy cache {IMAGE_ID}
 ```
+
+## Depends explaination
+
+These depends list what should exist for different deployment types:  
+
+* `trev-base`: bare-metal, VMs, and containers
+* `drivers`: base-metal, VMs
+* `desktop`: bare-metal with a GPU and monitor
+
+This is why I placed `firewalld` inside of `drivers`.  Containers don't need it but VMs might want it.  
+The name `drivers` may change.

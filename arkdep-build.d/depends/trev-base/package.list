@@ -43,6 +43,9 @@ systemd-resolvconf
 xdg-user-dirs
 xdg-utils
 
+dhcpcd
+strace
+mediainfo
 nano
 vim
 rsync
@@ -53,6 +56,9 @@ hwloc
 htop
 avahi
 nss-mdns
+hdparm
+jq
+openbsd-netcat
 
 tealdeer
 zellij

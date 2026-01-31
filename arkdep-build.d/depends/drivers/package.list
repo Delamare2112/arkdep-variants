@@ -24,3 +24,4 @@ xf86-input-libinput
 xf86-input-void
 f2fs-tools
 fwupd
+firewalld

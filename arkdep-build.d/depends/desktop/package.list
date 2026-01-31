@@ -29,6 +29,7 @@ seahorse
 ardour
 helvum
 pavucontrol
+pulsemixer
 gnome-keyring
 ardour
 carla
@@ -47,3 +48,4 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 terminus-font
+wireshark-qt
