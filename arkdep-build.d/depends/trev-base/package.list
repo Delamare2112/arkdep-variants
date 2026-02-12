@@ -33,7 +33,6 @@ glibc-locales
 gst-plugins-base
 gst-plugins-good
 libnss-extrausers
-networkmanager
 opennic-up
 openssh
 power-profiles-daemon

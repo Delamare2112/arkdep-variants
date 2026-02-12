@@ -15,5 +15,7 @@ sshfs
 usbip
 lldb
 gdb
+deno
+qemu-desktop
 
 lizardbyte/sunshine

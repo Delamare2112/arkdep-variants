@@ -2,6 +2,7 @@ bluez
 bluez-cups
 bluez-plugins
 bluez-utils
+networkmanager
 gdm
 gst-plugin-pipewire
 noto-fonts
@@ -16,6 +17,7 @@ wireplumber
 xorg-xrandr
 steam
 gparted
+mtools
 file-roller
 libreoffice-still
 hunspell
