@@ -1,3 +1,5 @@
 base
+iptables-nft
 dbus-daemon-units
 manjaro-keyring
+archlinux-keyring
