@@ -25,3 +25,4 @@ xf86-input-void
 f2fs-tools
 fwupd
 firewalld
+bcachefs-dkms

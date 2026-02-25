@@ -7,4 +7,4 @@ linux618-headers
 linux618-acpi_call
 linux618-nvidia-open
 linux618-headers
-bcachefs-dkms
+dkms
