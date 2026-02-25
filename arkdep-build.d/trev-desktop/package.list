@@ -17,5 +17,11 @@ lldb
 gdb
 deno
 qemu-desktop
+v4l2loopback-dkms
+v4l2loopback-utils
+scrcpy
+android-tools
+android-udev
+veracrypt
 
 lizardbyte/sunshine
