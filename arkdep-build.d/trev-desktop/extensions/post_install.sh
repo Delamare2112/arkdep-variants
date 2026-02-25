@@ -5,8 +5,16 @@
 #arch-chroot ${workdir} systemctl enable opennic-up.timer
 
 arch-chroot ${workdir} systemctl enable avahi-daemon
-arch-chroot ${workdir} systemctl enable NetworkManager
 arch-chroot ${workdir} systemctl enable sshd
+
+# arch-chroot ${workdir} systemctl enable NetworkManager
+# These files already exist as non-links after install for some reason...
+rm ${workdir}/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service
+rm ${workdir}/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service
+rm ${workdir}/etc/systemd/system/multi-user.target.wants/NetworkManager.service
+ln -s /usr/lib/systemd/system/NetworkManager-dispatcher.service ${workdir}/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service
+ln -s /usr/lib/systemd/system/NetworkManager-wait-online.service ${workdir}/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service
+ln -s /usr/lib/systemd/system/NetworkManager.service ${workdir}/etc/systemd/system/multi-user.target.wants/NetworkManager.service
 
 # Save pacman local database
 mkdir -pv ${workdir}/usr/share/manjaro
