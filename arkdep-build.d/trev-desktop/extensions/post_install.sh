@@ -22,8 +22,8 @@ mkdir -pv ${workdir}/usr/share/manjaro
 pacman -Q --root=${workdir} > ${workdir}/usr/share/manjaro/installed.pkgs
 
 # Switch branches to stable
-sed -i -e 's/unstable/stable/g' ${workdir}/etc/pacman.conf
-sed -i -e 's/testing/stable/g' ${workdir}/etc/pacman.conf
+# sed -i -e 's/unstable/stable/g' ${workdir}/etc/pacman.conf
+# sed -i -e 's/testing/stable/g' ${workdir}/etc/pacman.conf
 
 # Remove pacman
 #arch-chroot ${workdir} sed -i -e '/HoldPkg = pacman/d' /etc/pacman.conf
