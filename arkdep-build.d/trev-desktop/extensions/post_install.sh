@@ -16,6 +16,9 @@ ln -s /usr/lib/systemd/system/NetworkManager-dispatcher.service ${workdir}/etc/s
 ln -s /usr/lib/systemd/system/NetworkManager-wait-online.service ${workdir}/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service
 ln -s /usr/lib/systemd/system/NetworkManager.service ${workdir}/etc/systemd/system/multi-user.target.wants/NetworkManager.service
 
+# Disable avahi advertising AAAA on IPv4 (to hopefully avoid self-conflicts)
+sed -i 's/#publish-aaaa-on-ipv4=yes/publish-aaaa-on-ipv4=no/g' ${workdir}/etc/avahi/avahi-daemon.conf
+
 # Save pacman local database
 mkdir -pv ${workdir}/usr/share/manjaro
 #arch-chroot ${workdir} tar -czf /opt/manjaro/pacman-local-db.tar.gz /var/lib/pacman/local
