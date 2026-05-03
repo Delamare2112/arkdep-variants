@@ -2,9 +2,9 @@ amd-ucode
 dracut
 intel-ucode
 linux-firmware
-linux619
-linux619-headers
-linux619-acpi_call
-linux619-nvidia-open
-linux619-headers
+linux70
+linux70-headers
+linux70-acpi_call
+linux70-nvidia-open
+linux70-headers
 dkms
