@@ -44,6 +44,7 @@ qt6-imageformats
 mpv
 ffmpeg
 vlc
+vlc-plugins-all
 virt-manager
 flatpak
 noto-fonts
