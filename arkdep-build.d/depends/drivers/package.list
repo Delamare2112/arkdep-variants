@@ -4,6 +4,7 @@ lib32-nvidia-utils
 bcachefs-tools
 btrfs-progs
 dosfstools
+exfatprogs
 libva-intel-driver
 libva-mesa-driver
 qemu-guest-agent
