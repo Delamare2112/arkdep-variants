@@ -4,6 +4,9 @@ This repository contains Manjaro Immutable variant configuration for arkdep-buil
 
 Variants are recipes used by arkdep-build to create installable images in Arkdep format.
 
+## TrevDesktop wireless region
+If you are going to use TrevDesktop and don't live in the US, you must deal with `arkdep-build.d/trev-desktop/overlay/post_bootstrap/etc/conf.d/wireless-regdom`
+
 ## System requirements
 
 - Have arkdep-build and dependencies installed.

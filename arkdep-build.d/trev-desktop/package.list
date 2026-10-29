@@ -35,7 +35,6 @@ tmux
 docker
 docker-compose
 nvidia-container-toolkit
-downgrade
 swayidle
 wlopm
 zip
@@ -60,3 +59,7 @@ avrdude
 avr-binutils
 
 lizardbyte/sunshine
+
+xfce4
+xorg-server
+cosmic-terminal

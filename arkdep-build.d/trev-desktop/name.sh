@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo TrevOS-$(date -u '+%Y_%m_%d_%H%M')
+echo TrevOS-testing-$(date -u '+%Y_%m_%d_%H%M')

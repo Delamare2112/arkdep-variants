@@ -3,6 +3,7 @@ bluez-cups
 bluez-plugins
 bluez-utils
 networkmanager
+wireless-regdb
 gdm
 gst-plugin-pipewire
 noto-fonts
@@ -46,6 +47,7 @@ ffmpeg
 vlc
 vlc-plugins-all
 virt-manager
+dnsmasq
 flatpak
 noto-fonts
 noto-fonts-cjk
@@ -53,3 +55,4 @@ noto-fonts-emoji
 terminus-font
 wireshark-qt
 audacity
+wireless-regdb
