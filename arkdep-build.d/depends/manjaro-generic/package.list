@@ -12,7 +12,6 @@ flatpak
 glibc-locales
 gst-plugins-base
 gst-plugins-good
-libnss-extrausers
 libva-intel-driver
 libva-mesa-driver
 networkmanager

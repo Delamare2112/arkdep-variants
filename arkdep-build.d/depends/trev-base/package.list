@@ -32,7 +32,6 @@ debugedit
 glibc-locales
 gst-plugins-base
 gst-plugins-good
-libnss-extrausers
 opennic-up
 openssh
 power-profiles-daemon

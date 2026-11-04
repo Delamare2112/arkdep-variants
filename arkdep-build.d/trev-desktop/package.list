@@ -45,6 +45,10 @@ unrar
 ninja
 traceroute
 
+kicad-demos
+kicad-library
+kicad-library-3d
+
 ghidra
 python
 python-requests
